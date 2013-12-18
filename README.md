@@ -1,6 +1,6 @@
 Going reactive (with the unfortunate tomcat7 and maven boilerplate)
 
-This project shows as an example using akka cluster in tomcat7 with maven and scala to publish a message among all tomcat nodes.
+This project shows as an example using akka cluster in tomcat7 with maven and scala to publish a message among all tomcat nodes (note akka is not in tomcat container but only scalatra as a rest service)
 
 Why with tomcat? Sometimes your system is already based on tomcat so you would not want akka as standalone (ie. the operations team already knows to monitor tomcat), in these cases you want akka on top of tomcat, if your system is also built on maven you also want your maven to be aware of akka (instead of using plain sbt).
 
