@@ -7,7 +7,7 @@
 
     <display-name>Akka Demo</display-name>
     <description>
-        This is a simple servlet using Akka actors to print "Hello, Darren"
+        akka scalatra cluster
     </description>
 
     <listener>
