@@ -31,6 +31,6 @@ Call http://localhost:8080/publish
 
 to sumbit from first node to both nodes (its a topic).
 
-Call http://localhost:8081/submit
+Call http://localhost:8081/publish
 
-to submit from second node to both nodes..
+to publish from second node to both nodes..
