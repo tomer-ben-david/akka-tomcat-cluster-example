@@ -19,14 +19,15 @@ This file should initialize your actor system (as can be seen in example).
 
 to run two nodes in the cluster see following configuration with intellij
 
-![alt text 1](http://github.com/tomer-ben-david/akkaServlet/raw/master/doc/images/tomcat-akka-cluster-2552.png)
+![alt text 1](http://github.com/tomer-ben-david/akkaServlet/raw/master/doc/images/tomcat-akka-cluster-2551.png)
 
 and for the second node:
 
 ![alt text 2](http://github.com/tomer-ben-david/akkaServlet/raw/master/doc/images/tomcat-akka-cluster-2552.png)
 
+**you must also run at least once mvn package and then in intellij +artifact deployment for the war**
 
-Call http://localhost:8080/submit
+Call http://localhost:8080/publish
 
 to sumbit from first node to both nodes (its a topic).
 
