@@ -19,7 +19,7 @@ This file should initialize your actor system (as can be seen in example).
 
 to run two nodes in the cluster see following configuration with intellij
 
-![alt text 1](http://github.com/tomer-ben-david/akkaServlet/raw/master/doc/images/tomcat-akka-cluster-2552.png)
+![alt text 1](http://github.com/tomer-ben-david/akkaServlet/raw/master/doc/images/tomcat-akka-cluster-2551.png)
 
 and for the second node:
 
