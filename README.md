@@ -25,11 +25,12 @@ and for the second node:
 
 ![alt text 2](http://github.com/tomer-ben-david/akkaServlet/raw/master/doc/images/tomcat-akka-cluster-2552.png)
 
+**you must also run at least once mvn package and then in intellij +artifact deployment for the war**
 
-Call http://localhost:8080/submit
+Call http://localhost:8080/publish
 
 to sumbit from first node to both nodes (its a topic).
 
-Call http://localhost:8081/submit
+Call http://localhost:8081/publish
 
-to submit from second node to both nodes..
+to publish from second node to both nodes..
